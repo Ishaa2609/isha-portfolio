@@ -28,7 +28,7 @@ const Work = () => {
       </div>
 
       {/* Projects Grid */}
-      <div className="grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => (
           <div
             key={project.id}
@@ -111,14 +111,24 @@ const Work = () => {
                   >
                     View Code
                   </a>
-                  {/* <a
-                    href={selectedProject.webapp}
+
+
+                  <a
+
+
+
+                    href={selectedProject.video ? selectedProject.video : selectedProject.webapp}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
+                    autoPlay
+                    className="w-full bg-gray-800 hover:bg-purple-800 text-gray-400 lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
                   >
+
                     View Live
-                  </a> */}
+
+
+                  </a>
+
                 </div>
               </div>
             </div>

@@ -41,6 +41,9 @@ import nietlogo from './assets/education_logo/niet_logo.jpg';
 import scholarLogo from './assets/work_logo/scholar.jpg';
 import ecomLogo from './assets/work_logo/ecom.jpg';
 import apLogo from './assets/work_logo/ap.png';
+import sihVideo from './assets/work_logo/sih.mp4';
+
+
 
 
 
@@ -162,7 +165,7 @@ export const SkillsInfo = [
       date: "Aug 2020- Aug 2024",
       grade: "7.6 CGPA",
       desc: "I have completed my Bachelor’s degree (B.Tech) in Computer Science and Engineering from Noida Institute of Engineering and Technology. During my time at the institute, I built a strong foundation in programming, software development, and computer science principles. I studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in workshops and technical events, which further enhanced my skills and practical knowledge. My experience during B.Tech has been instrumental in shaping my technical abilities and professional growth.",
-      degree: "Master of Computer Applications - MCA",
+      degree: "Bachelor of Technology(B.Tech)",
     },
 
     {
@@ -186,16 +189,7 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
-    // {
-    //   id: 0,
-    //   title: "GitHub Profile Detective",
-    //   description:
-    //     "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-    //   image: githubdetLogo,
-    //   tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-    //   github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-    //   webapp: "https://githubprofiledetective.netlify.app/",
-    // },
+  
     {
       id: 1,
       title: "Scholarship Portal",
@@ -204,7 +198,7 @@ export const SkillsInfo = [
       image: scholarLogo,
       tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
       github: "https://github.com/Ishaa2609/Scholarlyy",
-      // webapp: "https://csprep.netlify.app/",
+      video:sihVideo
     },
     {
       id: 2,
@@ -214,7 +208,7 @@ export const SkillsInfo = [
       image: ecomLogo,
       tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
       github: "https://github.com/Ishaa2609/Ecommerce-website",
-      // webapp: "https://movie-recommendation-app-jet.vercel.app/",
+       webapp: "http://ecommerce-frontend-jgz6.vercel.app",
     },
     {
       id: 3,
@@ -223,7 +217,8 @@ export const SkillsInfo = [
         "Built a dynamic Admin Dashboard leveraging React and Vite to deliver fast rendering and modular development. Implemented Tailwind CSS for a modern UI and ensured best practices with ESLint and optimized component design.",
       image: apLogo,
       tags: ["React JS","html","tailwind"],
-      github: "https://github.com/Ishaa2609/adminpanell",
+      github: "https://github.com/Ishaa2609/admin-panel",
+      webapp:"https://admin-panel-flax-phi.vercel.app/"
      
     },
    
